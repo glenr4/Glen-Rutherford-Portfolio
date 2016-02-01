@@ -3,20 +3,38 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Glen Rutherford's Portfolio</title>
+	
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- Bootstrap: To ensure proper rendering and touch zooming -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<header>
-		<div id="jumbotron"></div>
-		<div id="header-text">
-			<h1 id="intro">Meet</h1>
-			<h1 id="myName">Glen Rutherford</h1>
-			<p>I'm an electrical engineer that loves to program. When my day job started moving away from coding, I missed the challenge of constant problem solving that coding provides. I also started to see a lot of really cool websites around that were really beautiful and had cool animations and visual effects. I thought 'I would love to create something like that, how do I do it?'. And so this site details my journey from newbie to where I am today.</p>
-			<h2>Current Status</h2>
-			<p>I'm in the process of finalising this page at the end of the THinkful Front End Developer Course. Next step is the Thinkful Angular.js course, I can't wait!</p>
+		<div class="container-fluid grid">
+			<div class="row">
+				<div id="jumbotron"></div>
+				<div id="header-text">
+					<h1 class="my-name">Meet</h1>
+					<h1 class="my-name">Glen Rutherford</h1>
+					<p>I'm an electrical engineer that loves to program. When my day job started moving away from coding, I missed the challenge of constant problem solving that coding provides. I also started to see a lot of really cool websites around that were really beautiful and had cool animations and visual effects. I thought 'I would love to create something like that, how do I do it?'. And so this site details my journey from newbie to where I am today.</p>
+					<h2>Current Status</h2>
+					<p>I'm in the process of finalising this page at the end of the THinkful Front End Developer Course. Next step is the Thinkful Angular.js course, I can't wait!</p>
+				</div>
+			</div>
 		</div>
 	</header>
+	<div class="container-fluid grid">
+		<div class="row">
+			<div class="col-lg-3 col-md-4 col-sm-6">lg md sm</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">lg md sm</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">lg md sm</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">lg md sm</div>
+		</div>
+	</div>
+
 	<section>
 		<h2>Worldwide Weather</h2>
 		<p>This is the last assignment in the Thinkful Front End Developer course. I really enjoyed this one as it was actually quite easy to put together with some features that I thought were pretty cool.
@@ -142,5 +160,9 @@
 		<p>Talk about the php course I did and can also talk about setting up a WAMP server at home and some of the configuration I have had to do.</p>
 	</section>
 	<footer></footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
