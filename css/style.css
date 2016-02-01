@@ -119,9 +119,24 @@ header {
     text-align: center;
 }
 
-/*.grid {
-    position: absolute;
-    top: 1000; left: 0;
-    height: 100%; width:100%;
+.grid > *{
+    border: 1px solid Chocolate;
 
-}*/
+}
+
+/*Override Bootstrap widths*/
+@media (min-width: 568px) {
+  .container {
+    /*width: 70%;*/
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 70%;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+}
