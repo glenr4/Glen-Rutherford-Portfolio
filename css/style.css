@@ -28,7 +28,7 @@ body {
 
 /*Headings*/
 h1 {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     font-size: 3rem;
     font-weight: 300;
     margin-bottom: 0;
@@ -36,26 +36,34 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 300;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 2em;
+    font-weight: bold;
 }
 
 h5 {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     font-size: 1rem;
     font-weight: 400;
 }
 
 h6 {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     font-size: 0.9rem;
     font-weight: 300;
     color: #9EA3AA;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
 .my-name {
-    font-family: code, serif;
+    font-family: code, sans-serif;
     /*font-size: 6em;*/
     /*margin-top: 2em;*/
     text-align: center;
@@ -86,11 +94,10 @@ header {
 }
 
 #jumbotron {
-	/*background-image: url("https://c2.staticflickr.com/4/3746/11813559994_359596682a_b.jpg");*/
     background-image: url("../images/19207935681_3ed43e0a13_k.jpg");
+    /*background-image: url("https://c1.staticflickr.com/9/8095/8534149934_9a0118ed93_b.jpg");*/
     /*background-image: url("../images/21234921632_29ff044bb3_h.jpg");*/
-    /*background-image: url("https://c1.staticflickr.com/1/728/20845503992_f1204f26af_b.jpg"); */
-        /*https://www.flickr.com/photos/turntable00000/20845503992/in/photostream/*/
+
     background-size: cover;
     background-position: center bottom;
     background-color: #000000;
