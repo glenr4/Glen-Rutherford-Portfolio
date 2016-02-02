@@ -41,6 +41,10 @@ h2 {
     font-weight: bold;
 }
 
+h4 {
+    font-size: 2em;
+}
+
 h5 {
     /*font-family: 'Roboto', sans-serif;*/
     font-size: 1rem;
@@ -64,6 +68,7 @@ p {
 
 .my-name {
     font-family: code, sans-serif;
+    
     /*font-size: 6em;*/
     /*margin-top: 2em;*/
     text-align: center;
@@ -74,6 +79,11 @@ p {
     line-height: 2em;
     margin-top: 1em;
     /*color: #2C3C5E;*/
+}
+
+.grid h4 {
+    font-weight: 700;
+    text-align: center;
 }
 
 @media screen and (max-width: 500px) {
@@ -119,10 +129,7 @@ header {
     text-align: center;
 }
 
-.grid > *{
-    border: 1px solid Chocolate;
 
-}
 
 /*Override Bootstrap widths*/
 @media (min-width: 568px) {
@@ -137,6 +144,58 @@ header {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 70%;
+    width: 60%;
   }
+}
+
+.col-lg-12, .col-md-12, .col-sm-12 {
+    padding: 0px;
+}
+
+/*Grid elements*/
+.grid > *{
+    border: 1px solid Chocolate;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 100px;
+}
+
+#weather {
+    background-image: url("../images/weather.jpg");
+    height: 300px;
+}
+
+#quiz {
+    background-image: url("../images/quiz.jpg");
+    height: 300px;
+}
+
+#shopping-list {
+    background-image: url("../images/shopping-list.jpg");
+    height: 300px;
+}
+
+#street-fighter {
+    background-image: url("../images/street-fighter.jpg");
+    height: 300px;
+}
+
+#karma {
+    background-image: url("../images/karma.jpg");
+    height: 300px;
+}
+
+#about-me {
+    background-image: url("../images/about-me.jpg");
+    height: 300px;
+}
+
+#ny-times {
+    background-image: url("../images/NYTimesHacked.jpg");
+    height: 300px;
+}
+
+#hot-cold {
+    background-image: url("../images/hot-cold.jpg");
+    height: 300px;
 }
