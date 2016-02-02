@@ -154,10 +154,19 @@ header {
 
 /*Grid elements*/
 .grid > *{
-    border: 1px solid Chocolate;
+    /*border: 1px solid Chocolate;*/
     background-size: cover;
     background-position: center top;
     padding-top: 100px;
+}
+
+.grid h4 {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0px auto;
+    width: 60%;
+    padding: 10px 10px;
+    text-align: center;
+
 }
 
 #weather {
