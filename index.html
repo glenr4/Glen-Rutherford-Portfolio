@@ -25,7 +25,7 @@
 		</header>
 	</div>
 	<div class="container">
-		<section>
+		<section id="intro">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<h2>About Me</h2>
@@ -50,57 +50,65 @@
 			</div>
 		</section>
 	
-		<section>
-			<h2>Worldwide Weather</h2>
-			<p>This is the last assignment in the Thinkful Front End Developer course. I really enjoyed this one as it was actually quite easy to put together with some features that I thought were pretty cool.
+		<section class="project" id="weather-project">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
 
-			I used three APIs to make this app work:
-				<ul>
-					<li>A plugin for Google places with auto-complete place search</li>
-					<li>The API from weather underground to get current and forecast weather from around the world</li>
-					<li>And the Flickr API to get a background image of the place that the user searched for</li>
-				</ul>
-			</p>
-			<p>Some improvements that I could make with this are:
-				<ul>
-					<li>Lookup the users current location and display weather for where they are so that the page doesn't start blank</li>
-					<li>Make the user experience for mobile better</li>
-				</ul>
-			</p>
+					<h2>Worldwide Weather</h2>
+					<p>This is the last assignment in the Thinkful Front End Developer course. I really enjoyed this one as it was actually quite easy to put together with some features that I thought were pretty cool.
+
+					I used three APIs to make this app work:
+						<ul>
+							<li>A plugin for Google places with auto-complete place search</li>
+							<li>The API from weather underground to get current and forecast weather from around the world</li>
+							<li>And the Flickr API to get a background image of the place that the user searched for</li>
+						</ul>
+					</p>
+					<p>Some improvements that I could make with this are:
+						<ul>
+							<li>Lookup the users current location and display weather for where they are so that the page doesn't start blank</li>
+							<li>Make the user experience for mobile better</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<img src="images/weather.jpg" alt="worldwide weather" class="img-responsive">
+				</div>
+			</div>
 		</section>
-		<section>
+		<section class="project">
 			<h2>Stack Overflow API</h2>
 			<p>This Thinkful project started from an existing GitHub repository and the styling wasn't part of the assignment. The focus was purely on the API. This app uses the Stack Exchange API to get data from the Stack Overflow site.
 				stackerAJAX</p>
 		</section>
-		<section>
+		<section class="project">
 			<h2>myTube - Welcome to the wonderful world of APIs</h2>
 			<p>This was the first Thinkful project that introduced me to how cool Application Programmer Interfaces or APIs are for getting data from other sources.</p>
 			<p>This basic app queries YouTube and returns the results as clickable thumbnails. This is done through AJAX and YouTube's REST API.</p>
 			<p></p>
 		</section>
-		<section>
+		<section class="project">
 			<h2>Quiz App</h2>
 			<p>In this Thinkful project, I learned about how to implement Javascript objects in a practical example. In this quiz there are five static questions and each question is implemented as a Javascript object that is used to load the next question. Because of this structure, the quiz could be extended with many more questions and then have the five questions picked at random.</p>
 		</section>
-		<section>
+		<section class="project">
 			<h2>Hot or Cold</h2>
 			<p>This project started with the front end already done and we were to implement the javascript.</p>
 		</section>
-		<section>
+		<section class="project">
 			<h2>Fizz Buzz and Fizz Buzz Refactored</h2>
 			<p>Good old Fizz Buzz. From what I have been told, this is a classic job interview test to weed out those people that can't really program from those who can. I found this one pretty easy, I think I only needed one iteration to debug it.</p>
 			<p>It was then refactored to take user input for the number limit instead of a static limit of 100.</p>
 		</section>
-		<section>
+		<section class="project">
 			<h2>Shopping List</h2>
 			<p>This is the first project where we were basically told what needed to be done and there was no step through of code and very little guidance (the other projects we were to attempt ourselves with guidance and then a solution was given). I really liked this project as it was mainly functional rather than just layout. I chose a clean layout and I wanted to make cool animations for each transition. I am pretty happy with the result of this one. An obvious extension to this is to save the items to a list and be able to recall it. </p>
 		</section>
-		<section>
+		<section class="project">
 			<h2>Street Fighter</h2>
 			<p>This project introduced some basic animations in jQuery. The main animation was actually done in the gif files provided by Thinkful. So this was just really dipping my toes in the water and seeing what jQuery can do.</p>
 		</section>
-		<section>
+		<section class="project">
 			<h2>Karma Replica</h2>
 			<p>The object with this project in the Thinkful Front End Developer course was to get the look, layout and fonts virtually the same as the example website from Karma Mobility</p>
 			<p>See if you can click on the original</p>
@@ -108,30 +116,30 @@
 			<img src="images/karma-side-by-side.jpg" alt="karma">
 			<p>We had to run this on a webserver to get the font to load, so I fired up my WAMP server on my computer. And of course it didn't work! After a google search for the error that came up, there was a conflict on port 80. So then I had to track down the culprit with netstat. I found the process ID that was listening on port 80 and found out it was Skype! So I shutdown Skype and restarted the services on WAMP and it went green - good to go.</p>
 		</section>
-		<section>
+		<section class="project">
 			<h2>Hack the times</h2>
 			<p>I had already used Firebug in Firefox and the Inspector in Chrome to see what was going in the browser before. This exercise just got us to turn styles on and off and then drag divs around the html file to mess up the New York Times website.</p>
 			<img src="images/NYTimesHacked.jpg" alt="NY Times Hacked">
 		</section>
 
-		<section>
+		<section class="project">
 			<h2>About me page</h2>
 			<p>This one we just had to put together a few things about ourselves with a nice picture at the top. We created this on codepen which has a pretty good interface and also has the server already setup for you.</p>
 			<a href="http://codepen.io/glenr/full/zvJKJg/" target="_blank"><img src="images/about-me.jpg" alt=" about me"></a>
 		</section>
 
-		<section>
+		<section class="project">
 			<h2>The first project</h2>
 			<p>This one was super simple and made for people who had never touched html before. So here it is, nothing fancy.</p>
 			<img src="images/fresh-prince.jpg" alt="first project">
 		</section>
 
-		<section>
+		<section class="project">
 			<h2>Getting Sublime Text Installed and Configured</h2>
 			<p>First up you need a decent text editor with useful features to make your development more efficient. So we used Sublime text and installed Emmett which adds a lot of useful common coding shortcuts so that you don't spend all of your time typing angled brackets!</p>
 		</section>
 		
-		<section>
+		<section class="project">
 		<h2>Thinkful Front End Web Development Course</h2>
 		<p>I realised a few things about my web development experiences:</p>
 		<ol>
@@ -156,7 +164,7 @@
 		<p>The price wasn't excessive and it also came with a mentor who I can talk to one on one once a week. So I thought I haven't found anything better than that, sign me up!</p>
 		</section>
 
-		<section>
+		<section class="project">
 			<h2>The early days</h2>
 			<p>Well after some creating some websites firstly with Joomla, then Wordpress I got fed up with the restrictions that they or the theme that was installed posed. There was always something that I wanted different to what they allowed me to do. As someone who solves technical problems for a living, I got annoyed with this and thought there has to be a better way.</p>
 			<p>I eventually came across bootstrap what a revelation! How easy was it to use, responsive and had lots of animated effects built in!</p>
@@ -170,7 +178,7 @@
 			</p>
 		</section>
 		
-		<section>
+		<section class="project">
 			<h2>My first course</h2>
 			<p>Talk about the php course I did and can also talk about setting up a WAMP server at home and some of the configuration I have had to do.</p>
 		</section>
