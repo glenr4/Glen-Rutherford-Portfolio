@@ -137,6 +137,11 @@ header {
 
 .project {
     padding-top: 20px;
+
+}
+
+.container-fluid {
+    background-color: #FFFFFF;
 }
 
 
