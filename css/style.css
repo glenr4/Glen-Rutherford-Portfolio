@@ -28,7 +28,6 @@ body {
 
 /*Headings*/
 h1 {
-    /*font-family: 'Roboto', sans-serif;*/
     font-size: 3rem;
     font-weight: 300;
     margin-bottom: 0;
@@ -36,9 +35,9 @@ h1 {
 }
 
 h2 {
-    /*font-family: 'Roboto', sans-serif;*/
     font-size: 2em;
     font-weight: bold;
+    color: rgb(51, 122, 183);
 }
 
 h4 {
@@ -46,13 +45,11 @@ h4 {
 }
 
 h5 {
-    /*font-family: 'Roboto', sans-serif;*/
     font-size: 1rem;
     font-weight: 400;
 }
 
 h6 {
-    /*font-family: 'Roboto', sans-serif;*/
     font-size: 0.9rem;
     font-weight: 300;
     color: #9EA3AA;
@@ -66,29 +63,19 @@ p {
     font-family: "Open Sans", sans-serif;
 }
 
-/*@media only screen and (max-width: 992px) {
-    h1, h2, h3, h4, h5, h6, p {
-        padding: 0px 15px;
-    }
-}*/
-
 h1, h2, h3, h4, h5, h6, p {
     padding: 0px 15px;
 }
 
 .my-name {
     font-family: code, sans-serif;
-    
-    /*font-size: 6em;*/
-    /*margin-top: 2em;*/
     text-align: center;
     font-weight: bold;
+    color: #FFFFFF;
     text-shadow: 0 0 0.1em #2C3C5E;
-    /*#ececec;*/
     letter-spacing: .1em;
     line-height: 2em;
     margin-top: 1em;
-    /*color: #2C3C5E;*/
 }
 
 .grid h4 {
@@ -115,19 +102,12 @@ header {
 
 #jumbotron {
     background-image: url("../images/19207935681_3ed43e0a13_k.jpg");
-    /*background-image: url("https://c1.staticflickr.com/9/8095/8534149934_9a0118ed93_b.jpg");*/
-    /*background-image: url("../images/21234921632_29ff044bb3_h.jpg");*/
-
     background-size: cover;
     background-position: center bottom;
     background-color: #000000;
     background-attachment: fixed;
-
-    /*-webkit-filter: blur(3px) grayscale(0) opacity(1);*/
-
     position: absolute;
     top: 0; left: 0;
-    /*height: 100%; */
     height: 682px;  /* original image height */
     width:100%;
 }
@@ -157,13 +137,15 @@ header {
 .grid {
     padding: 3px 0px;
     background-color: #000000;
+    border-radius: 5px;
 }
 
-.grid > * {
+.grid div {
     border: 3px solid #000000;
     background-size: cover;
     background-position: center top;
     padding-top: 100px;
+    border-radius: 10px;
 }
 
 .grid h4 {
@@ -172,6 +154,7 @@ header {
     width: 60%;
     padding: 10px 10px;
     text-align: center;
+    border-radius: 10px;
 }
 
 #weather {
