@@ -132,12 +132,12 @@ header {
     background-color: #FFFFFF;
 }
 
-/*.col-lg-12, .col-md-12, .col-sm-12 {
-    padding: 0px;
-}*/
-
 #intro {
     padding: 20px 0px 50px 0px;
+}
+
+footer {
+    padding: 20px 0px;
 }
 
 /*Project elements*/
@@ -147,25 +147,17 @@ header {
     border-radius: 10px;
 }
 
-/*#shopping-list-project img {
-    max-height: 300px;
-
-}
-*/
-
-footer {
-    padding: 20px 0px;
-}
-
 /*Grid elements*/
 .grid {
     padding: 3px 0px;
-    background-color: #000000;
+    /*background-color: #000000;*/
+    background-color: rgb(51, 122, 183);
     border-radius: 5px;
 }
 
 .grid div {
-    border: 3px solid #000000;
+    /*border: 3px solid #000000;*/
+    border: 3px solid rgb(51, 122, 183);
     background-size: cover;
     background-position: center top;
     padding-top: 100px;
@@ -193,7 +185,7 @@ footer {
 }
 
 #shopping-list {
-    background-image: url("../images/shopping-list.jpg");
+    background-image: url("../images/shopping-list.png");
     /*height: 300px;*/
 }
 
@@ -218,7 +210,7 @@ footer {
 }
 
 #hot-cold {
-    background-image: url("../images/hot-cold.jpg");
+    background-image: url("../images/hot-cold.png");
     /*height: 300px;*/
 }
 
@@ -245,4 +237,16 @@ footer {
 #coming-soon1, #coming-soon2 {
     background-color: #F1F1F1;
     /*height: 300px;*/
+}
+
+@media screen and (max-width: 992px) {
+    #coming-soon1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1199px) {
+    #coming-soon1 {
+        display: none;
+    }
 }
