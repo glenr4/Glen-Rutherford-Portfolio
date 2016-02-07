@@ -93,6 +93,9 @@ h1, h2, h3, h4, h5, h6, p {
     h1.my-name {
         font-size: 6em;
     }
+    h2.my-name {
+        font-size: 2.5em;
+    }
 }
 
 /* Layout */
@@ -107,7 +110,8 @@ header {
     background-color: #000000;
     background-attachment: fixed;
     position: absolute;
-    top: 0; left: 0;
+    top: 0; 
+    left: 0;
     height: 682px;  /* original image height */
     width:100%;
 }
@@ -128,9 +132,29 @@ header {
     background-color: #FFFFFF;
 }
 
-
-.col-lg-12, .col-md-12, .col-sm-12 {
+/*.col-lg-12, .col-md-12, .col-sm-12 {
     padding: 0px;
+}*/
+
+#intro {
+    padding: 20px 0px 50px 0px;
+}
+
+/*Project elements*/
+.project img {
+    margin: 0 auto;
+    max-height: 300px;
+    border-radius: 10px;
+}
+
+/*#shopping-list-project img {
+    max-height: 300px;
+
+}
+*/
+
+footer {
+    padding: 20px 0px;
 }
 
 /*Grid elements*/
@@ -146,10 +170,11 @@ header {
     background-position: center top;
     padding-top: 100px;
     border-radius: 10px;
+    height: 300px;
 }
 
 .grid h4 {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.85);
     margin: 0px auto;
     width: 60%;
     padding: 10px 10px;
@@ -159,60 +184,65 @@ header {
 
 #weather {
     background-image: url("../images/weather.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #quiz {
     background-image: url("../images/quiz.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #shopping-list {
     background-image: url("../images/shopping-list.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #street-fighter {
     background-image: url("../images/street-fighter.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #karma {
     background-image: url("../images/karma.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #about-me {
     background-image: url("../images/about-me.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #ny-times {
     background-image: url("../images/NYTimesHacked.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #hot-cold {
     background-image: url("../images/hot-cold.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #fresh-prince {
     background-image: url("../images/fresh-prince.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #stackoverflow {
     background-image: url("../images/stackoverflow.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #my-tube {
     background-image: url("../images/my-tube.jpg");
-    height: 300px;
+    /*height: 300px;*/
 }
 
 #fizz-buzz {
     background-image: url("../images/fizz-buzz.jpg");
-    height: 300px;
+    /*height: 300px;*/
+}
+
+#coming-soon1, #coming-soon2 {
+    background-color: #F1F1F1;
+    /*height: 300px;*/
 }
