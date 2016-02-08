@@ -113,12 +113,13 @@ header {
     top: 0; 
     left: 0;
     height: 682px;  /* original image height */
-    width:100%;
+    width: 100%;
 }
 
 #header-text {
     position: absolute;
-    top: 0; left: 0;
+    top: 0; 
+    left: 0;
     color: #FFFFFF;
     text-align: center;
 }

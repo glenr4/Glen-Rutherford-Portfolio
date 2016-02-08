@@ -30,6 +30,8 @@
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<h2>About Me</h2>
 					<p>I'm an electrical engineer that loves to program. When my day job started moving away from coding, I missed the challenge of constant problem solving that coding provides. I also started to see a lot of really cool websites around that were really beautiful and had cool animations and visual effects. I thought "I would love to create something like that, how do I do it?". And so this site details my journey from newbie to where I am today.</p>
+					<h2>About This Page</h2>
+					<p>This is my current portfolio that I will keep adding to as I create new and hopefully interesting things. I used Bootstrap to make this page as it makes the layout super easy and works on mobile devices too. No point in reinventing the wheel with CSS I reckon.</p>
 					<h2>Current Status</h2>
 					<p>I'm in the process of finalising this page at the end of the Thinkful Front End Developer Course. Next step is the Thinkful Angular.js course and then Ruby on Rails!</p>
 				</div>
@@ -65,19 +67,19 @@
 				<div class="col-lg-6 col-md-6 col-sm-6">
 
 					<a href="http://glenr4.github.io/weatherAPI" target="_blank"><h2>Worldwide Weather</h2></a>
-					<p>This is the last assignment in the Thinkful Front End Developer course. I really enjoyed this one as it was actually quite easy to put together with some features that I thought were pretty cool.
+					<p>This is the last assignment in the Thinkful Front End Developer course. I really enjoyed this one. It was actually quite easy to put together with some features that I thought were pretty cool.
 
 					I used three APIs to make this app work:
 						<ul>
-							<li>A plugin for Google places with auto-complete place search</li>
-							<li>The API from weather underground to get current and forecast weather from around the world</li>
-							<li>And the Flickr API to get a background image of the place that the user searched for</li>
+							<li>A <a href="https://ubilabs.github.io/geocomplete/" target="_blank">plugin</a> for Google Places with auto-complete search</li>
+							<li>The API from <a href="http://www.wunderground.com/weather/api/" target="_blank">Weather Underground</a> to get current and forecast weather from around the world</li>
+							<li>And the <a href="https://www.flickr.com/services/developer/api/" target="_blank">Flickr API</a> to get a background image of the place that the user searched for</li>
 						</ul>
 					</p>
 					<p>Some improvements that I could make with this are:
 						<ul>
-							<li>Lookup the users current location and display weather for where they are so that the page doesn't start blank</li>
-							<li>Make the user experience for mobile better</li>
+							<li>Lookup the user's current location and display weather for where they are, so that the page doesn't start blank</li>
+							<li>Make the user experience for mobile better - perhaps using Bootstrap</li>
 						</ul>
 					</p>
 				</div>
@@ -92,7 +94,14 @@
 				<div class="col-lg-6 col-md-6 col-sm-6">
 
 					<a href="http://glenr4.github.io/stackerAJAX" target="_blank"><h2>Stack Overflow API</h2></a>
-					<p>This Thinkful project started from an existing GitHub repository and the styling wasn't part of the assignment. The focus was purely on the API. This app uses the Stack Exchange API to get data from the Stack Overflow site.</p>
+					<p>This Thinkful project started from an existing GitHub repository. The focus was purely on the API. This app uses the <a href="https://api.stackexchange.com/" target="_blank">Stack Exchange API</a> to get data from the Stack Overflow site. </p>
+					<p>Two different end points were used, one to get unanswered questions regarding a particular keyword. The other to get the top answerers (is that even a real word?) for a particular keyword.</p>
+
+					<p>Some improvements that I could make with this are:
+						<ul>
+							<li>The styling wasn't part of the assignment but can definitely be improved upon
+						</ul>
+					</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="http://glenr4.github.io/stackerAJAX" target="_blank"><img src="images/stackoverflow.jpg" alt="Stack Overflow" class="img-responsive"></a>
@@ -116,7 +125,8 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="http://glenr4.github.io/quiz" target="_blank"><h2>Quiz App</h2></a>
-					<p>In this Thinkful project, I learned about how to implement Javascript objects in a practical example. In this quiz there are five static questions and each question is implemented as a Javascript object that is used to load the next question. Because of this structure, the quiz could be extended with many more questions and then have the five questions picked at random.</p>
+					<p>In this Thinkful project, I learned about how to implement Javascript objects in a practical example.</p> 
+					<p>This quiz has five static questions. Each question is implemented as a Javascript object. When the user clicks the Next Question button, the next question object is used to update the same page. Through the use of Javascript objects, the quiz could be scaled with many more questions and then have the five questions picked at random.</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="http://glenr4.github.io/quiz" target="_blank"><img src="images/quiz.jpg" alt="Quiz" class="img-responsive"></a>
@@ -127,7 +137,8 @@
 			<div class="row">
 				<div class="col-lg-9 col-md-9 col-sm-9">
 					<a href="http://glenr4.github.io/hot-or-cold-starter" target="_blank"><h2>Hot or Cold</h2></a>
-					<p>This project started with the front end already done and we were to implement the javascript.</p>
+					<p>This project started with the front end already done and we were to implement the Javascript.</p>
+					<p>This app generates a random number between 1 and 100, then takes the user's guess and gives feedback on how close the guess was. The guesses are listed at the bottom and the number of guesses are counted. The app also checks if the guess is actually a number and if it is within the correct range.</p>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3">
 					<a href="http://glenr4.github.io/hot-or-cold-starter" target="_blank"><img src="images/hot-cold.png" alt="Hot or Cold" class="img-responsive"></a>
@@ -151,7 +162,9 @@
 			<div class="row">
 				<div class="col-lg-9 col-md-8 col-sm-8">
 					<a href="http://glenr4.github.io/shopping-list" target="_blank"><h2>Shopping List</h2></a>
-					<p>This is the first project where we were basically told what needed to be done and there was no step through of code and very little guidance (the other projects we were to attempt ourselves with guidance and then a solution was given). I really liked this project as it was mainly functional rather than just layout. I chose a clean layout and I wanted to make cool animations for each transition. I am pretty happy with the result of this one. An obvious extension to this is to save the items to a list and be able to recall it. </p>
+					<p>This is the first project where we were basically told what needed to be done and there was no step through of code and very little guidance (in the other projects we were to attempt the code ourselves with guidance and then a solution was given).</p> 
+					<p>I really liked this project as it was mainly functional rather than just layout. I chose a clean layout and I wanted to make cool animations for each transition. I am pretty happy with the result of this one.</p> 
+					<p>An obvious extension to this is to save the items to a list and be able to recall it. </p>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-4">
 					<a href="http://glenr4.github.io/shopping-list" target="_blank"><img src="images/shopping-list.png" alt="Shopping List" class="img-responsive"></a>
@@ -162,7 +175,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="http://glenr4.github.io/jQuery-streetfighter/main.html" target="_blank"><h2>Street Fighter</h2></a>
-					<p>This project introduced some basic animations in jQuery. The main animation was actually done in the gif files provided by Thinkful. So this was just really dipping my toes in the water and seeing what jQuery can do.</p>
+					<p>This project introduced some basic animations in jQuery. The main animation was actually done in the gif files provided by Thinkful. So this was just really dipping my toes in the water and seeing what jQuery can do. But it brought back memories from my days as a kid in the arcades!</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="http://glenr4.github.io/jQuery-streetfighter/main.html" target="_blank"><img src="images/street-fighter.jpg" alt="Street Fighter" class="img-responsive"></a>
@@ -173,9 +186,8 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="http://glenr4.github.io/startup-landing-page-clone" target="_blank"><h2>Karma Replica</h2></a>
-					<p>The object with this project in the Thinkful Front End Developer course was to get the look, layout and fonts virtually the same as the example website from Karma Mobility.</p>
+					<p>The object of this project was to get the look, layout and fonts virtually the same as the example website from Karma Mobility.</p>
 					<p>See if you can pick the original.</p>
-					<p>We had to run this on a webserver to get the font to load, so I fired up my WAMP server on my computer. And of course it didn't work! After a google search for the error that came up, there was a conflict on port 80. So then I had to track down the culprit with netstat. I found the process ID that was listening on port 80 and found out it was Skype! So I shutdown Skype and restarted the services on WAMP and it went green - good to go.</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="http://glenr4.github.io/startup-landing-page-clone" target="_blank"><img src="images/karma-side-by-side.jpg" alt="Karma" class="img-responsive"></a>
@@ -198,6 +210,7 @@
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="http://codepen.io/glenr/full/zvJKJg/" target="_blank"><h2>About me page</h2></a>
 					<p>This one we just had to put together a few things about ourselves with a nice picture at the top. We created this on codepen which has a pretty good interface and also has the server already setup for you.</p>
+					<p>Looking back at this project now, I can see that the fonts don't look to good and the image is a bit jerky when scrolling.</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<a href="http://codepen.io/glenr/full/zvJKJg/" target="_blank"><img src="images/about-me.jpg" alt="About Me" class="img-responsive"></a>
@@ -254,6 +267,10 @@
 				</ul>
 			</p>
 		</section>
+					Originally in Karma:
+					<p>We had to run this on a webserver to get the font to load, so I fired up my WAMP server on my computer. And of course it didn't work! After a google search for the error that came up, there was a conflict on port 80. So then I had to track down the culprit with netstat. I found the process ID that was listening on port 80 and found out it was Skype! So I shutdown Skype and restarted the services on WAMP and it went green - good to go.</p>
+
+
 		
 		<section class="project">
 			<h2>My first course</h2>
