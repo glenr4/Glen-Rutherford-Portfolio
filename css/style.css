@@ -10,10 +10,6 @@ body {
     background-color: #F1F1F1;
 }
 
-* {
-	/*border: 1px solid Chocolate;*/
-}
-
 /* Fonts */
 @font-face {
     font-family: code;
@@ -154,16 +150,22 @@ footer {
     border-radius: 10px;
 }
 
+.tags {
+    background-color: #FFFFFF;
+    color: rgb(51, 122, 183);
+    padding: 3px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
 /*Grid elements*/
 .grid {
     padding: 3px 0px;
-    /*background-color: #000000;*/
     background-color: rgb(51, 122, 183);
     border-radius: 5px;
 }
 
 .grid div {
-    /*border: 3px solid #000000;*/
     border: 3px solid rgb(51, 122, 183);
     background-size: cover;
     background-position: center top;
@@ -183,67 +185,54 @@ footer {
 
 #weather {
     background-image: url("../images/weather.jpg");
-    /*height: 300px;*/
 }
 
 #quiz {
     background-image: url("../images/quiz.jpg");
-    /*height: 300px;*/
 }
 
 #shopping-list {
     background-image: url("../images/shopping-list.png");
-    /*height: 300px;*/
 }
 
 #street-fighter {
     background-image: url("../images/street-fighter.jpg");
-    /*height: 300px;*/
 }
 
 #karma {
     background-image: url("../images/karma.jpg");
-    /*height: 300px;*/
 }
 
 #about-me {
     background-image: url("../images/about-me.jpg");
-    /*height: 300px;*/
 }
 
 #ny-times {
     background-image: url("../images/NYTimesHacked.jpg");
-    /*height: 300px;*/
 }
 
 #hot-cold {
     background-image: url("../images/hot-cold.png");
-    /*height: 300px;*/
 }
 
 #fresh-prince {
     background-image: url("../images/fresh-prince.jpg");
-    /*height: 300px;*/
 }
 
 #stackoverflow {
     background-image: url("../images/stackoverflow.jpg");
-    /*height: 300px;*/
 }
 
 #my-tube {
     background-image: url("../images/my-tube.jpg");
-    /*height: 300px;*/
 }
 
 #fizz-buzz {
     background-image: url("../images/fizz-buzz.jpg");
-    /*height: 300px;*/
 }
 
 #coming-soon1, #coming-soon2 {
     background-color: #F1F1F1;
-    /*height: 300px;*/
 }
 
 @media screen and (max-width: 992px) {
