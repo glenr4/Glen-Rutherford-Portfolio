@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-p {
+p, li {
     font-family: "Open Sans", sans-serif;
 }
 
@@ -145,7 +145,7 @@ footer {
 
 /*Project elements*/
 .project img {
-    margin: 0 auto;
+    margin: 60px 0px 0px auto;
     max-height: 300px;
     border-radius: 10px;
 }
@@ -161,16 +161,17 @@ footer {
 /*Grid elements*/
 .grid {
     padding: 3px 0px;
-    background-color: rgb(51, 122, 183);
-    border-radius: 5px;
+    /*background-color: rgb(51, 122, 183);*/
+
+    /*border-radius: 5px;*/
 }
 
 .grid div {
-    border: 3px solid rgb(51, 122, 183);
+    /*border: 3px solid rgb(51, 122, 183);*/
     background-size: cover;
     background-position: center top;
     padding-top: 100px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     height: 300px;
 }
 
